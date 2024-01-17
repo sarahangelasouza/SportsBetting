@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:interface xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="con:RestService" id="fb0ff312-752f-4fca-99eb-2afe0ed91dcb" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://api.openweathermap.org" type="rest">
+  <con:settings id="10f655f6-a760-44c6-964c-8c11575122a3">
+    <con:setting id="fb0ff312-752f-4fca-99eb-2afe0ed91dcbfileName">http%3A%2F%2Fapi.openweathermap.org</con:setting>
+  </con:settings>
+  <con:definitionCache/>
+  <con:endpoints>
+    <con:endpoint>http://api.openweathermap.org</con:endpoint>
+  </con:endpoints>
+  <con:environmentSpec>
+    <con:entry environmentId="Default">
+      <con:authProfile>sample prof</con:authProfile>
+    </con:entry>
+  </con:environmentSpec>
+</con:interface>
